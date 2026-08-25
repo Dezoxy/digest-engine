@@ -1,0 +1,19 @@
+.git
+.venv
+tests
+scripts
+docs
+.env
+*.db
+archive/
+__pycache__
+*.pyc
+.pytest_cache
+.ruff_cache
+.DS_Store
+
+# local dev container state: Claude OAuth credentials + private digest archives
+local-data/
+
+# session cookie jars (x-cookies.json etc.) — never in the build context
+*cookies*.json

@@ -1,0 +1,26 @@
+# secrets
+.env
+!.env.example
+*cookies*.json
+*.session
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# state
+*.db
+*.sqlite3
+
+# local dev container state: Claude OAuth credentials + private digest archives
+local-data/
+
+# os / build
+dist/
+.DS_Store
+
+# Claude Code agent worktrees (session-local, never part of the repo)
+.claude/worktrees/
